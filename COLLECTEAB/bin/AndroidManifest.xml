@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.collecteab"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="10" />
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_OWNER_DATA" />
+    <uses-permission android:name="android.permission.READ_OWNER_DATA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <user-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <user-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+	<uses-permission android:name="android.permission.INTERNET"/>
+	<uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" android:debuggable="true">
+        <activity
+            android:name="com.collectefinal.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.collectefinal.Accueil"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.collectefinal.Formulaire"
+            android:label="@string/app_name" >
+            
+        </activity>
+        <activity
+            android:name="com.collectefinal.AjoutCate"
+            android:label="@string/app_name" >
+            
+        </activity>
+        <activity
+            android:name="com.collectefinal.ListCat"
+            android:label="@string/app_name" >
+            
+        </activity>
+        
+         <activity
+            android:name="com.collectefinal.CategoriTab"
+            android:label="@string/app_name" >
+            
+        </activity>
+         <activity
+            android:name="com.collectefinal.ListPoint"
+            android:label="@string/app_name" >
+            
+        </activity>
+        <activity
+            android:name="com.collectefinal.IsNetworkAvailable"
+            android:label="@string/app_name" >
+            
+        </activity>
+        
+        <activity
+            android:name="com.collectefinal.TestConect"
+            android:label="@string/app_name" >
+            
+        </activity>
+        <activity
+            android:name="com.collectefinal.Gps"
+            android:label="@string/app_name" >
+            
+        </activity>
+        <activity
+            android:name="com.collectefinal.InfoReseau"
+            android:label="@string/app_name" >
+            
+        </activity>
+         <activity
+            android:name="com.collectefinal.ListePoints"
+            android:label="@string/app_name" >
+            
+        </activity>
+        <activity
+            android:name="com.collectefinal.AjoutZone"
+            android:label="@string/app_name" >
+            
+        </activity>
+         <activity
+            android:name="com.collectefinal.ZoneTab"
+            android:label="@string/app_name" >
+            
+        </activity>
+          <activity
+            android:name="com.collectefinal.ListeZone"
+            android:label="@string/app_name" >
+            
+        </activity>
+         <activity
+            android:name="com.collectefinal.Recherche"
+            android:label="@string/app_name" >
+            
+        </activity>
+          
+          
+    </application>
+
+</manifest>
